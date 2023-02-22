@@ -2,7 +2,9 @@
 
 ipxe menu script and boot binary
 
+```
 git clone https://github.com/ipxe/ipxe.git
+```
 
 edit configuration include files
 
