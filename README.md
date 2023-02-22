@@ -15,7 +15,7 @@ src/config/general.h
 
 build
 
-````
+```
 cd src
 echo '#!ipxe\n\ndhcp\ntftp://${next-server}/ipxe/ipxe.cfg' > ipxe.boot
 make bin-x86_64-efi/snponly.efi EMBED=ipxe.boot
